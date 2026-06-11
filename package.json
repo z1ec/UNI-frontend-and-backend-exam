@@ -1,0 +1,13 @@
+{
+  "name": "nodejs-ci-example",
+  "version": "1.0.0",
+  "description": "Пример Node.js проекта с CI/CD конфигурацией",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

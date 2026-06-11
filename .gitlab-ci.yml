@@ -1,0 +1,12 @@
+stages:
+  - test
+
+run-tests:
+  stage: test
+  image: node:20-alpine
+  cache:
+    paths:
+      - node_modules/
+  script:
+    - npm ci
+    - npm test
